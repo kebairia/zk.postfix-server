@@ -1,0 +1,8 @@
+---
+# defaults file for zk.postfix
+myhostname : server.example.com
+mydomain : example.com
+inet_interfaces : all
+inet_protocols : ipv4
+mydestination : $myhostname, localhost.$mydomain, localhost, server.example.com, $mydomain
+mynetworks : 192.168.33.0/24
